@@ -15,7 +15,6 @@ $username = 'warce';
 $password = 'thor2021';
 $servername ='localhost';
 $dbname = "socialnet";
-
 try {
     $dsn = "mysql:host=localhost;dbname=$dbname";
     $dbh = new PDO($dsn, $username, $password);
